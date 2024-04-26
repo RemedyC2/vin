@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@bluedevil ~ larpme.plz</title>
+    <script>
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+
+        document.onkeydown = function(e) {
+            if (e.keyCode == 123) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+                return false;
+            }
+        }
+    </script>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="scars.wtf">
+<meta property="og:url" content="https://scars.">
+<meta property="og:title" content="@Remedy ~ hit my site off">
+<meta property="og:description" content="Touch Me Plzz 0w0">
+<script>
+    const titles = ["~bluedevil", "larp me >.<", "hit my site! plzz", "mr.fed i would neverrr", "ima get a rock in ur clit", "i touch scar btw", "wanna be com kid", "Remedy!", "Fent!"];
+
+    function changeTitle() {
+        let index = 0;
+        return function() {
+            document.title = titles[index];
+            index = (index + 1) % titles.length;
+        };
+    }
+
+    setInterval(changeTitle(), 150);
+</script>
+<style>
+    html {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+        }
+
+    body {
+    background-color:#060707;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: "Segoe UI", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+    text-align: center;
+    color: white;
+    }
+
+    #blur-box1 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 31px;
+    width: 35%;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0px);
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.774);
+    text-align: center;
+    animation: fadein 1s forwards;
+    }
+
+    #profile-picture {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff00;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    }
+
+    #profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+
+    #username {
+    font-size: 35px;
+    margin-top: 130px;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    }
+
+    #bio {
+    font-size: 18px;
+    margin-top: 10px;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    }
+
+    #video-background {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    animation: fadein 1s forwards;
+    }
+
+    .glowing-text {
+    color: white;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    }   
+
+    .next {
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    position: absolute;
+    font-weight: normal;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    font-family: "Segoe UI", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+    }
+
+    .social-icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin: 10px;
+    font-size: 34px;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+    transition: transform 0.3s ease-in-out; 
+    }
+
+    .discord-stuff {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin: 12px;
+    font-size: 34px;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+    transition: transform 0.3s ease-in-out; 
+    }
+
+    .social-icon:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+    }
+
+    @keyframes fadeout {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0;
+        }
+    }
+
+    @keyframes fadein {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .box {
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 20px;
+        margin: 10px;
+        text-align: fill;
+        line-height: 100px;
+    }
+
+    
+</style>
+
+
+</head>
+
+<body>
+<div id="button"><b class="next glowing-text">press me >_0</b></div>
+<div id="blur-box1">
+<div id="profile-picture">
+<img src="files/pfp.png" alt="Profile Picture">
+</div>
+<div id="username">bluedevil <3</div>
+<div id="bio">discord.gg/Remedy | discord: dooringwhores | hit the site off >.<</div>
+<a href="https://t.me/dooringsluts" class="social-icon"><img src="files/globe.png" /></a>
+<a href="https://discord.gg/Remedy" class="discord-stuff"><img src="files/dicord.png" /></a>
+</div>
+<video id="video-background" loop>
+<source src="videos/background.mp4" type="video/mp4">
+</video>
+<script>
+        document.getElementById("button").addEventListener("click", function () {
+            var button = this;
+            button.style.animation = "fadeout 1s forwards";
+
+            var bgAudio = document.getElementById("video-background"); 
+            document.getElementById("blur-box1").style.display = "block";
+            document.getElementById("video-background").style.display = "block";
+            bgAudio.play();
+        });
+</script>
+</body>
+</html>
